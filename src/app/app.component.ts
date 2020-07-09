@@ -15,7 +15,7 @@ export class AppComponent {
 
   public onClick() {
 
-    console.log('click!');
+    console.log('click!!');
 
     const dialogRef = this.modal
       .alert()
@@ -23,7 +23,7 @@ export class AppComponent {
       .showClose(true)
       .title('A simple Alert style modal window')
       .body(`
-            <h4>Alert is a classic (title/body/footer) 1 button modal window that 
+            <h4>Alert is a classic (title/body/footer) 1 button modal window that
             does not block.</h4>
             <b>Configuration:</b>
             <ul>
