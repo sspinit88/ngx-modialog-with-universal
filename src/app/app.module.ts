@@ -11,7 +11,7 @@ import { BootstrapModalModule } from 'ngx-modialog/plugins/bootstrap';
     AppComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     ModalModule.forRoot(),
     BootstrapModalModule
   ],
