@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {  Modal } from 'ngx-modialog/plugins/bootstrap';
+import { Modal } from 'ngx-modialog/plugins/bootstrap';
 
 @Component({
   selector: 'app-root',
